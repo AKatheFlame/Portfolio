@@ -1,21 +1,10 @@
-title;description;url;image
-Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://pythonhow.com;1.png
-Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://pythonhow.com;2.png
-PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://pythonhow.com;3.png
-PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://pythonhow.com;4.png
-Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://pythonhow.com;5.png
-Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://pythonhow.com;6.png
-Download Cleaner;A script that monitors the Downloads folder and deletes old files keeping the folder clean.;https://pythonhow.com;7.png
-Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://pythonhow.com;8.png
-Helper Chatbot;A chatbot that knows about a specific topic and answers questions regarding that topic.;https://pythonhow.com;9.png
-Open Domain Chatbot;A chatbot built that can discuss anything with a human and is built using the Facebook API.;https://pythonhow.com;10.png
-Webcam Motion Detector;A program that monitors the computer webcam and sends an email when a new object enters the view.;https://pythonhow.com;11.png
-Typing Analyzer;A program that monitors the computer keyboard and returns the most typed words of the session.;https://pythonhow.com;12.png
-Internet Speed Analysis;A program that records the internet speed every few seconds and plots the values on the browser.;https://pythonhow.com;13.png
-Monitoring Data;A program that monitors a particular website and periodically records the data to a remote server.;https://pythonhow.com;14.png
-Visualizing Data;A program that visualizes the data collected in the previous monitoring program. ;https://pythonhow.com;15.png
-Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://pythonhow.com;16.png
-Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;https://pythonhow.com;17.png
-School Management System;A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.;https://pythonhow.com;18.png
-Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;https://pythonhow.com;19.png
-Online Store;A Django online store app where users can place orders and sellers can manage them.;https://pythonhow.com;20.png
+title;description;technologies;category;github;demo;image;featured
+To-Do App Web;A Streamlit-based To-Do web application that allows users to add, track, and remove tasks while persisting the task list in a text file.;Python, Streamlit;Python / Web Development;https://github.com/AKatheFlame/To-Do-app-web;;1.png;false
+Excel To Invoice;A Python automation tool that reads invoice data from Excel spreadsheets and generates formatted PDF invoices containing invoice details, product information, and calculated totals.;Python, Pandas, FPDF2, Excel, openpyxl;Python / Automation;https://github.com/AKatheFlame/Excel_To_Invoice;;4.png;false
+PDF Template Generator;A Python utility that reads topics and page counts from a CSV file and automatically generates a multi-page A4 PDF template with topic headings, footers, and writing lines.;Python, Pandas, FPDF2;Python / Automation;https://github.com/AKatheFlame/PDF_template;;3.png;false
+Book Analysis App;A Python Natural Language Processing project that analyzes a book using word-frequency analysis, stopword removal, and chapter-level sentiment analysis.;Python, NLTK, NLP, Regex, VADER;NLP / Data Analysis;https://github.com/AKatheFlame/Book_Analysis;;OIP.jpg;false
+Webcam Detection;A real-time computer vision application that detects significant movement through a webcam, captures images of detected activity, and sends the captured image by email when the movement ends.;Python, OpenCV, Computer Vision, SMTP, Multithreading;Computer Vision;YOUR_GITHUB_URL;;11.png;false
+News To Email;A Python automation project that retrieves recent news articles for a selected topic through NewsAPI, formats the results into an email digest, and sends it through Gmail SMTP.;Python, Requests, NewsAPI, SMTP, JSON;API / Automation;https://github.com/AKatheFlame/News_To_Email;;5.png;false
+Web Scraping;A Python web scraping and monitoring application that periodically extracts tour information from a webpage, detects new entries, stores previously seen results, and sends an email notification when new data is found.;Python, Requests, SelectorLib, Web Scraping, SMTP;Python / Automation;https://github.com/AKatheFlame/Web_Scraping;;8.png;false
+Weather API;A Flask-based REST API that provides historical temperature data for weather stations, with endpoints for retrieving measurements by date, station, or year.;Python, Flask, Pandas, REST API, HTML;API / Applications;https://github.com/AKatheFlame/Weather_API;;6.png;false
+Weather Data App;A Streamlit weather forecasting application that retrieves forecast data from OpenWeatherMap and visualizes upcoming temperatures and sky conditions for a selected location.;Python, Streamlit, OpenWeatherMap API, Requests, Plotly;Data Visualization;https://github.com/AKatheFlame/Weather_Data_App;;image.png;false
