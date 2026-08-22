@@ -87,7 +87,7 @@ def display_project(row, featured=False):
     with st.container(border=True):
 
         st.image(
-            "images/" + row["image"],
+            "Images/" + row["image"],
             use_container_width=True,
         )
 
@@ -187,7 +187,7 @@ with col1:
 with col2:
 
     st.image(
-        "images/photo.jpg",
+        "Images/photo.jpg",
         use_container_width=True,
     )
 
