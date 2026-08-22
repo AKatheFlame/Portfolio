@@ -232,12 +232,12 @@ with about_col2:
     st.markdown("### What I enjoy")
 
     st.markdown("""
-        - 💻 Building software and applications
-        - 📊 Working with data and finding insights
-        - 🤖 Exploring AI and Machine Learning
-        - 🧩 Solving technical problems
-        - 🛠️ Turning ideas into practical projects
-        - 📚 Learning new technologies
+        -  Building software and applications
+        -  Working with data and finding insights
+        -  Exploring AI and Machine Learning
+        -  Solving technical problems
+        -  Turning ideas into practical projects
+        -  Learning new technologies
         """)
 
 
